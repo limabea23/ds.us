@@ -1,6 +1,6 @@
 class Desenvolvedor {
-    constructor (nome, idDesenvolvedor, idade, contato, plataforma) {
-        this.nome = nome;
+    constructor (nomeDev, idDesenvolvedor, idade, contato, plataforma) {
+        this.nomeDev = nomeDev;
         this.idDesenvolvedor = idDesenvolvedor;
         this.idade = idade;
         this.contato = contato;
@@ -9,8 +9,8 @@ class Desenvolvedor {
 }
 
 class Aluno {
-    constructor (nome, idPlayer, idade, online, impostor) {
-        this.nome = nome;
+    constructor (nomeAluno, idPlayer, idade, online, impostor) {
+        this.nomeAluno = nomeAluno;
         this.idPlayer = idPlayer;
         this.idade = idade;
         this.online = online;
@@ -24,5 +24,13 @@ class Missoes {
         this.idMissao = idMissao;
         this.explicacao = explicacao;
         this.pontuacao = pontuacao;
+    }
+}
+
+class Sala {
+    constructor (nomeSala, idSala,capacidadeMax) {
+        this.nomeSala = nomeSala;
+        this.idSala = idSala;
+        this.capacidadeMax = capacidadeMax;
     }
 }
