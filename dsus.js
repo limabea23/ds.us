@@ -7,3 +7,14 @@ class Desenvolvedor {
         this.plataforma = plataforma;
     }
 }
+
+class Aluno {
+    constructor (nome, idPlayer, idade, online, impostor) {
+        this.nome = nome;
+        this.idPlayer = idPlayer;
+        this.idade = idade;
+        this.online = online;
+        this.impostor = impostor;
+    }
+}
+
