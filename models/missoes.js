@@ -5,4 +5,10 @@ class Missoes {
         this.explicacao = explicacao;
         this.pontuacao = pontuacao;
     }
+    inicar() {
+        console.log(`A missão ${this.nomeMissao} foi iniciada.`);
+    }
+    finalizar () {
+        console.log(`A missão ${this.nomeMissao} foi finalizada.`)
+    }
 }
