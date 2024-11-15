@@ -6,4 +6,14 @@ class Aluno {
         this.online = online;
         this.impostor = impostor;
     }
+    mudarNome(novoNome) {
+        this.nomeAluno = novoNome;
+        console.log(`Nome alterado para ${this.novoNome}`);
+    }
+    verPontos() {
+        console.log(`Seus pontos são...`) 
+    }
+    votarImpostor() {
+        console.log(`Você votou que impostor é:`)
+    }
 }
