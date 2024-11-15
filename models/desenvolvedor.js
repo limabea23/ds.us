@@ -6,4 +6,10 @@ class Desenvolvedor {
         this.contato = contato;
         this.plataforma = plataforma;
     }
+    criarMissoes () {
+        console.log(`Missão criada pelo ${this.nomeDev} com successo.`);
+    }
+    atualizarSistema () {
+        console.log(`Sistema atualizado pelo ${this.nomeDev}.`);
+    }
 }
